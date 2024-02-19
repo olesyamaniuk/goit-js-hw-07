@@ -46,3 +46,17 @@ images.forEach(image => {
 });
 
 gallery.appendChild(fragment);
+
+// const gallery = document.querySelector('.gallery');
+
+// images.forEach(image => {
+//   const li = document.createElement('li');
+  
+//   gallery.appendChild(li);
+  
+//   const img = document.createElement('img');
+//   img.src = image.url;
+//   img.alt = image.alt;
+
+//   li.appendChild(img);
+// })
