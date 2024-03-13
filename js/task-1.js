@@ -13,3 +13,19 @@
 //     console.log(`Elements: ${categoryElements.length}`);
 // });
 // -----------------------------------------------------------------
+
+const categoriesItem = document.querySelectorAll('li.item');
+console.log(categoriesItem);
+
+console.log(categoriesItem.length);
+
+categoriesItem.forEach(item =>{
+
+const categoriesTitle = item.querySelector('h2').textContent;
+console.log(categoriesTitle);
+
+const categoriesEl = item.querySelectorAll('ul li').length;
+console.log(categoriesEl);
+
+
+})
